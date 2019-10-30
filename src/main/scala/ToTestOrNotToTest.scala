@@ -1,4 +1,6 @@
 object ToTestOrNotToTest extends App {
+  println("Running in main")
+
   def cube(x: Int) = {
     x * x * x
   }
