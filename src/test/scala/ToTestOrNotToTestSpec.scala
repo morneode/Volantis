@@ -1,24 +1,5 @@
 class ToTestOrNotToTestSpec extends org.scalatest.FunSuite {
-  println("Running in test")
-
-    test("3 Cubed.cube") {
+  test("Testing the cube function") {
     assert(ToTestOrNotToTest.cube(3) === 27)
-    assert(ToTestOrNotToTest.cube(2) === 8)
-    assert(ToTestOrNotToTest.cube(-2) === -8)
-   println("----------------------------------------------")
-   println(ToTestOrNotToTest.z)
-   println("----------------------------------------------")
-      assert(ToTestOrNotToTest.a === 1)
-    assert(ToTestOrNotToTest.codeName == "ToTestOrNotToTest$")
   }
-
-  test("To Add.add") {
-    assert(ToTestOrNotToTest.add(3,2) === 5)
-  }
-
-  test("To Multiply.multiply") {
-    assert(ToTestOrNotToTest.multiply(5,2) === 10)
-  }
-
-
 }
