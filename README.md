@@ -9,15 +9,15 @@ Repo to learn git, scala, scalatest, selenium and more...
 
 To do these excercises, create a branch with the same name as the excercise.
 
-# understand-git-commands:
+# GIT: understand-git-commands:
 
-# understand-sbt-project-excercise:
+# SBT: understand-sbt-project-excercise:
 
 - Understand the layout of this project (know what each directory is for, and what each file is for)
 
-# understand-sbt-command-line:
+# SBT: understand-sbt-command-line:
 
-# add-scala-tests-for-functions-excercise:
+# SCALATEST: add-scala-tests-for-functions-excercise:
 
 - Create more tests for the cubed function
 - Add tests for the multiply and add functions
