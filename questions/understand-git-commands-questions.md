@@ -18,3 +18,4 @@ You may reference the videos, the cheatsheet or even google to complete these qu
 1. How do you view information about the remote config of a git repo?
 1. What commands will create a branch called `qa` from `master`
 1. Lets say you've made changes which you want to discard, and you have not yet commited them anyway, what command can you use?
+1. What is the difference between `git merge` and `git merge <branch>`
