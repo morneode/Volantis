@@ -21,11 +21,11 @@ $ git checkout -b understand-git-commands
 
 1. GIT (questions): **understand-git-commands**
    - Have a look at the cheatsheet here `cheatsheets/git.md`
-   - _Complete the questions_ in `questions/understand-git-commands-questions.md`
+   - _Complete the questions_ by modifying and commiting the changes in `questions/understand-git-commands-questions.md`
 1. SBT (questions): **understand-sbt-project-excercise**
    - Have a look at the cheatsheet here `cheatsheets/sbt.md`
-   - _Complete the questions_ in `questions/understand-sbt-project-excercise.md`
+   - _Complete the questions_ by modifying and commiting the changes in `questions/understand-sbt-project-excercise.md`
 1. Scalatest (task): **add-scala-tests-for-functions-excercise**
    - Create more tests for the cubed function
    - Add tests for the multiply and add functions
-   - _Complete this exercise_ by modifying the file `ToTestOrNotToTestSpec.scala`
+   - _Complete this exercise_ by modifying and commiting the file `ToTestOrNotToTestSpec.scala`
