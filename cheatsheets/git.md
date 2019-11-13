@@ -1,7 +1,16 @@
-## Git Cheatsheet
+# Git
 
-- `<parameter>` indicates a parameter you need to specify
-- **bold text** is used to show if the command connects to the remote or not
+- Watch these videos:
+  - [Learn Git](https://www.youtube.com/watch?v=IHaTbJPdB-s&feature=youtu.be)
+  - [Git tutorial part 1](https://www.youtube.com/watch?v=9GKpbI1siow)
+  - [Git tutorial part 2](https://www.youtube.com/watch?v=n-p1RUmdl9M)
+- More references:
+  - [basic git commands with examples](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
+
+## Cheatsheet
+`<parameter>` indicates a parameter you need to specify
+
+**bold text** is used to show if the command connects to the remote or not
 
 `repo` : is basically a folder, with files, which also contains the entire history of said folder. So a _git repo_ is basically a _git directory/folder_ i.e. a folder which contains the `.git` folder
 
