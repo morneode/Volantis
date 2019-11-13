@@ -22,11 +22,16 @@ $ git checkout -b understand-git-command
      - [Learn Git](https://www.youtube.com/watch?v=IHaTbJPdB-s&feature=youtu.be)
      - [Git tutorial part 1](https://www.youtube.com/watch?v=9GKpbI1siow)
      - [Git tutorial part 2](https://www.youtube.com/watch?v=n-p1RUmdl9M)
-   - [basic git commands with examples](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
-   - Complete the questions
+   - More references:
+     - [basic git commands with examples](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
+   - Complete the questions (in `questions/understand-git-commands-questions.md`)
 1. SBT excercises: **understand-sbt-project-excercise**
-   - Understand the layout of this project (know what each directory is for, and what each file is for)
-1. SBT excercise: **understand-sbt-command-line**
+   - Have a look at the cheatsheet here `cheatsheets/sbt.md
+   - More documentation:
+     - [Directory Structure](https://www.scala-sbt.org/1.x/docs/Directories.html)
+     - [Commands](https://www.scala-sbt.org/1.x/docs/Running.html)
+     - [Command Line Reference](https://www.scala-sbt.org/1.x/docs/Command-Line-Reference.html)
+   - Complete the questions (in `questions/understand-sbt-project-excercise.md`
 1. Scalatest excercises: **add-scala-tests-for-functions-excercise**
    - Create more tests for the cubed function
    - Add tests for the multiply and add functions
