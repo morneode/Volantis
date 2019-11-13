@@ -20,3 +20,5 @@ You may reference the videos, the cheatsheet or even google to complete these qu
 1. Lets say you've made changes which you want to discard, and you have not yet commited them anyway, what command can you use?
 1. What is the difference between `git merge` and `git merge <branch>`
 1. What is the git command to change a branch's name locally and remotely? 
+1. If you commit a file, is it commited to your current branch or to master?
+1. If you commited a change, but it was for the wrong branch, how can you move the commit?
