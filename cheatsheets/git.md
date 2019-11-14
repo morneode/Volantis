@@ -8,6 +8,7 @@
   - [basic git commands with examples](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
 
 ## Cheatsheet
+
 `<parameter>` indicates a parameter you need to specify
 
 **bold text** is used to show if the command connects to the remote or not
@@ -18,11 +19,39 @@
 
 `HEAD` : the most recent commit
 
-`git <command> help` : show help of a specific command. for e.g. `git status help`
+### Help commands
+
+`git help` : shows help regarding which commands are available
+
+`git <command> help` : shows help of a specific command. for e.g. `git status help`
+
+### Initializing commands
+
+`git init` : initialises a directory to become a working git repository. It creates a `.git/` folder and allows git commands to function **local**
+
+`git clone <ssh_url/https_url>` : get a repo from remote, initialises a directory for it (normally with the same name),sets your **remote** to the point to the cloned remote **remote -> local**
+
+### Commiting commands
+
+`git add <specific file/folder/or use an option>` : adds the file to the staging area, i.e. ready for committing **local**
+
+`git commit -m <message>` : commit staged files with message **local**
+
+### Branching commands
+
+`git branch <branchname>` : creates a branch from current HEAD with the name \<branchname> **local**
+
+`git merge <branch>` : merge \<branch> into current branch **local**
+
+### Status commands
 
 `git status` : shows status of local repo **local**
 
-`git branch <branchname>` : creates a branch from current HEAD with the name \<branchname> **local**
+`git diff` : shows current changes **local**
+
+`git log` : shows the history (commits) of your repo, the hashes of each commit, the HEADs of the branches, up to your latest commit **local**
+
+### Checkout commands
 
 `git checkout -- .` : disregard local changes **local**
 
@@ -30,23 +59,19 @@
 
 `git checkout -b <branch>` : creates new branch \<name> and checks it out that branch **local**
 
-`git add <specific file/folder/or use an option>` : adds the file to the staging area, i.e. ready for committing **local**
-
-`git commit -m <message>` : commit staged files with message **local**
-
-`git diff` : shows current changes **local**
-
-`git merge <branch>` : merge \<branch> into current branch **local**
-
-`git remote add <origin> <URL>` : adds a new remote called \<origin> which points to \<URL>
-
-`git remote -v` : shows info about remote
+### Syncing commands
 
 `git push` : syncs to remote (typically called origin) **local -> remote**
 
 `git pull` : syncs from remote (typically called origin) **remote -> local**
 
-`git clone <ssh_url/https_url>` : get a repo from remote, sets your **remote** to the cloned remote, can affect original by pushing directly **remote -> local**
+### Modifying where your local repo's remote points to
+
+`git remote add <origin> <URL>` : adds a new remote called \<origin> which points to \<URL>
+
+`git remote -v` : shows info about remote
+
+### Fetch state from the remote
 
 `git fetch` : get state from remote **remote -> local**
 
