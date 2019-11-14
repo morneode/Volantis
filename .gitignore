@@ -30,3 +30,9 @@ build
 
 #general
 *.class
+
+# vscode
+.metals/
+
+# emacs
+*~
