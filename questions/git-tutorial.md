@@ -14,7 +14,9 @@
    > You should see a folder named `.git`
 1. We can also now start using git commands. Lets check the status of this repo: `git status`
 
-### Well done, you've created a git repo!! Lets add some files to this repo!!
+#### Well done, you've created a git repo!! Lets add some files to this repo!!
+
+### Lets commit some files to it and create a branch
 
 1. Create a file: `touch master-file.txt`
 1. Lets stage the file in order to commit it: `git add master-file.txt`
@@ -32,7 +34,7 @@
    > You should see your new file listed as well.
 1. Lets check the status of the repo: `git status`
    > You should see that git also recognises the new file as an untracked file.
-1. Let us stage the file. This means we are putting the file in the staging area, i.e. _ready to commit_: `git add branch-one-file1.txt`
+1. Stage the file. This means we are putting the file in the staging area, i.e. _ready to commit_: `git add branch-one-file1.txt`
 1. Lets check the status of the repo: `git status`
    > You should see that the file is now ready to be committed.
 1. Commit the file: `git commit -m "added a branch-one-file1.txt file"`
@@ -45,8 +47,13 @@
    > you should see the `branch-one-file2.txt`, the `branch-one-file1.txt` and the `master-file.txt`
 1. Check the status of the repo: `git status`
    > You should see that the file `branch-one-file1.txt` is listed as `modified`, and the `branch-one-file2.txt` is listed as `untracked` or `new files`
-1. Commit the file with a message that makes sense to you.
+1. Commit the files with a message that makes sense to you.
    > If the commit fails with `no changes added to commit`, it means you forgot to stage (`add`) your changes
+
+#### Good, we've created a branch, and added some files to it
+
+### Lets get the feature files available on master
+
 1. Checkout the master branch: `git checkout master`
 1. List the files in the current directory: `ls -al`
    > Where are your other files? Don't worry, they are on your other branch!
@@ -57,4 +64,4 @@
    > The `git merge <branchname>` command will merge the mentioned branch name into the currently checked out branch (which is master in our case)
 1. List the file contents: `ls -al`
 
-### Congratulations!! You've merged your branch into master.
+### Congratulations!! You've merged your branch into master
