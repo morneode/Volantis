@@ -2,7 +2,9 @@
 
 ### Initialising: Create a git repo
 
-1. Create a working directory. (`mkdir ~/tmp/git-tutorial`) and `cd ~/tmp/git-tutorial` into it
+1. Create a working directory. (`mkdir -p ~/tmp/git-tutorial`) and `cd ~/tmp/git-tutorial` into it
+1. Check the current working directory using: `pwd`
+   > It should print out something like: `/home/YOURNAME/tmp/git-tutorial`
    > Is this a git repo yet?
 1. Lets see if it is a git repo: `git status`
    > It is not a git repository -> there is not `.git` folder in this directory...
@@ -68,8 +70,8 @@
 1. Checkout master again. Lets get the changes we've made on `branch-one` available on `master`: `git merge branch-one`
    > The `git merge <branchname>` command will merge the mentioned branch name into the currently checked out branch (which is master in our case)
 1. List the file contents: `ls -al`
-    > You should see all the files now
+   > You should see all the files now
 1. Have a look at the current history of the repo: `git log --graph --decorate --all`
-    > You should see your initial commit, along with all of your other commits, your branch, and finally the merge commit, which brought the two branches together
+   > You should see your initial commit, along with all of your other commits, your branch, and finally the merge commit, which brought the two branches together
 
 **Congratulations!! You've merged your branch into master**
