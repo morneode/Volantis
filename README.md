@@ -48,3 +48,4 @@ $ git checkout -b understand-git-commands
    - Create more tests for the cubed function
    - Add tests for the multiply and add functions
    - _Complete this exercise_ by modifying and commiting the file `ToTestOrNotToTestSpec.scala`
+1. Programming basics: Create some content on programming basics.  For example, that a language like Python is just semantics... the basic skills are in problem solving.  What kinds of skills do you need to solve problems?  For example being able to formulate an if statement, or loop through data... those things then become the kinds of commands you want to be able to write in computer language and each language will have its own way of doing that (the semantics)
