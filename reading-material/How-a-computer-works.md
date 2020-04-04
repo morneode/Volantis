@@ -80,12 +80,17 @@ Have a look at the table below, and start learning a language (prefereably a hig
 
 ## References:
 
+[How Computers Work](https://www.youtube.com/watch?v=OAx_6-wdslM&list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
+
 how to prepare to learn programming
+
 https://www.codingdojo.com/blog/7-tips-learn-programming-faster lead to
 Programming 101 - 5 Basic Concepts of Programming
+
 [Computer Architecture - Interpreter, Compiler & Assembler](https://www.youtube.com/watch?v=uKotrtLzJbw)
 
 ## Help resources
 
 https://stackoverflow.com/
+
 https://www.reddit.com/r/learnprogramming/
