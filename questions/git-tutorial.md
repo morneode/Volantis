@@ -75,3 +75,15 @@
    > You should see your initial commit, along with all of your other commits, your branch, and finally the merge commit, which brought the two branches together
 
 **Congratulations!! You've merged your branch into master**
+
+1. Create a new branch called "Feature1".
+1. Create a file called "feature1.txt"
+1. Edit the file and put the words "feature One" in it
+1. Commit the file
+1. Checkout master branch
+1. Create a new branch called "Feature2".
+1. Create a file called "feature2.txt"
+1. Edit the file and put the words "feature Two" in it
+1. Commit the file
+1. Checkout master branch
+1. Lets merge these brances into our masterx
