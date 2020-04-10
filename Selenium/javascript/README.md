@@ -9,14 +9,29 @@ In the Let's install some recommended software
 
 ## Install recommended software
 
+We will use Visual Studio Code for this tutorial.
+
+For more information go [here](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
+
 ### Macos - brew installations
 
 ```
+Get autocomplete from typescript definition manager:
+npm install -g tsd
+tsd query node --action install
+tsd query express --action install
+
 To use Firefox:
 brew install geckodriver
 
 To use Chrome:
 brew cask install chromedriver
+```
+
+## Run the code
+
+```bash
+node google-test.js
 ```
 
 ## Links
