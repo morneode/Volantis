@@ -16,6 +16,7 @@ If you don't have any programming background, it is RECOMMENDED to go through an
 - [Other useful things to learn](#other-useful-things-to-learn)
   - [Markdown](#markdown)
   - [p5 - javascript library - fun](#p5---javascript-library---fun)
+  - [Typescript](#typescript)
 
 ## First steps (Reading and Understanding)
 
@@ -115,3 +116,10 @@ From their website:
 > p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else! p5.js is free and open-source because we believe software, and the tools to learn it, should be accessible to everyone.
 
 - [p5's website](https://p5js.org/)
+
+## Typescript
+
+Adding types to Javascript
+
+- [getting started with typescript](https://blog.teamtreehouse.com/getting-started-typescript)
+- [vscode and typescript](https://code.visualstudio.com/Docs/languages/typescript)

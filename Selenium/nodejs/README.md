@@ -41,3 +41,4 @@ node google-test.js
 - [best practices](https://blog.testproject.io/2018/03/08/selenium-javascript-best-practices/)
 - [javascript sleep?](https://flaviocopes.com/javascript-sleep/)
 - [also](https://www.sitepoint.com/delay-sleep-pause-wait/)
+- [vscode - javascript](https://code.visualstudio.com/Docs/languages/javascript)
