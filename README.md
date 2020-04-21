@@ -31,4 +31,4 @@ Repo to learn git, scala, scalatest, selenium and more...
 
 The documents is stored under the `./documents/` folder.
 
-[Lets get started!!!](documents/INDEX.md)
+[Lets get started!!!](documents/LEARN.md)
