@@ -1,13 +1,27 @@
 # Volantis
 
-Repo to learn git, scala, scalatest, selenium and more...
+This project is supposed to provide you with the simple building blocks so that you can learn to code.
 
-## Getting started
+If you have any recommendations or problems, please create an issue [here](https://github.com/morneode/volantis/issues)
+
+## Lets get started
+
+The documents is stored under the `./documents/` folder.
+
+[Lets get started!!!](documents/LEARN.md)
+
+---
+
+## If you want to contribute to this project
 
 1. Create your own github.com account
 2. Fork this repo to your own account
 
-## Update your forked repo
+Now you will have a copy of the whole project on your own github account.
+
+To contribute to this project, create a branch for your changes, and then create a pull request.
+
+### Update your forked repo
 
 1. Go to your repo on github
    > Navigate to github.com, and then find your volantis repo
@@ -26,9 +40,3 @@ Repo to learn git, scala, scalatest, selenium and more...
 1. Then click `Create pull request`
 1. Then click `Merge pull request`, and then `Confirm merge`
 1. You have updated your repo to be in sync with the latest Master Branch of `morneode/volantis`
-
-## Lets get started
-
-The documents is stored under the `./documents/` folder.
-
-[Lets get started!!!](documents/LEARN.md)
