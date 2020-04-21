@@ -2,7 +2,7 @@
 
 - [Useful Tools and Things](#useful-tools-and-things)
   - [Cheatsheets - Reference sheets](#cheatsheets---reference-sheets)
-  - [Code Development Tools](#code-development-tools)
+  - [Every dev has a favorite IDE or text editor.](#every-dev-has-a-favorite-ide-or-text-editor)
     - [IDE (Integrated Development Editor)](#ide-integrated-development-editor)
     - [Text Editors](#text-editors)
 
@@ -11,9 +11,7 @@
 1. [git-cheatsheet](./cheatsheets/git.md)
 1. [sbt-cheatsheet](./cheatsheets/sbt.md)
 
-## Code Development Tools
-
-Every dev has a favorite IDE or text editor.
+## Every dev has a favorite IDE or text editor.
 
 ### IDE (Integrated Development Editor)
 
