@@ -7,6 +7,17 @@
 - More references:
   - [basic git commands with examples](https://rubygarage.org/blog/most-basic-git-commands-with-examples)
 
+## How to
+
+### Create a branch
+
+For example, to create a branch which branches of from master and with the name **mybranch** do the following:
+
+```bash
+git checkout master
+git checkout -b mybranch
+```
+
 ## Cheatsheet
 
 `<parameter>` indicates a parameter you need to specify
@@ -58,7 +69,6 @@
 `git log --graph --decorate --all` : shows a git log with committed objects connected
 
 `git log --oneline` : shows a git log with committed objects connected
-
 
 ### Checkout commands
 

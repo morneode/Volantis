@@ -5,7 +5,7 @@ Repo to learn git, scala, scalatest, selenium and more...
 ## Getting started
 
 1. Create your own github.com account
-2. Fork this repo to your own account
+2. Fork [morneode/volantis](https://github.com/morneode/volantis) repo to your own account
 
 ## Update your forked repo
 
