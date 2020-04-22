@@ -20,8 +20,8 @@ Some things to read before we get to the exercises
 
 To complete these tutorials, just follow the steps in the tutorial.
 
-1. GIT (tutorial): Getting started with git
-   - Follow the steps in the [git-tutorial](./tutorial/git-tutorial.md)
+1. bash: [Getting started with Bash](./tutorial/bash-tutorial.md)
+2. git: [Getting started with Git](./tutorial/git-tutorial.md)
 
 ## Questions - You can submit them back to test your understanding
 
