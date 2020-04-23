@@ -247,3 +247,5 @@ There are many different shells that can be loaded into a terminal/console. Here
 
 - [difference between shell, console and terminal](https://fossbytes.com/difference-between-shell-console-terminal/)
 - [different types of linux shells](https://www.tecmint.com/different-types-of-linux-shells/)
+- [bash cheatsheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+- [another cheatsheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
