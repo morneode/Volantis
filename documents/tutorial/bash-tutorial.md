@@ -1,10 +1,12 @@
 # Getting started with Bash
 
-Have you ever seen a terminal?
+## Have you ever seen a terminal?
 
 ![A Terminal](https://www.howtogeek.com/thumbcache/2/200/f5f162d5614c29a6e114429a33dd6088/wp-content/uploads/2013/03/linux-terminal-on-ubuntu.png)
 
 A terminal is also called a console. You might be thinking, why do I want to learn how to use that? Developers use them daily to build their code, to find files, to structure data etc.
+
+## Different shells/flavours for your terminal
 
 There are many different shells that can be loaded into a terminal/console. Here are a few:
 
@@ -16,26 +18,26 @@ There are many different shells that can be loaded into a terminal/console. Here
 
 ![Cmd and Powershell](https://www.howtogeek.com/thumbcache/2/200/c2953043725aae745859858ffdf92192/wp-content/uploads/2017/08/pcp_top.png)
 
-In this tutorial, we will focus on bash. Bash is available on Linux, Mac and recently on Windows 10 as well.
+> In this tutorial, we will focus on bash. Bash is available on Linux, Mac and recently on Windows 10 as well.
 
-What is bash?
+## What is bash?
 
 [According to their website:](https://www.gnu.org/software/bash/)
 
 > GNU Bash or simply Bash is a Unix shell and command language written by Brian Fox for the GNU Project as a free software replacement for the Bourne shell.
 
-Wait... What is a _shell_?
+## Wait... What is a _shell_?
 
 > At the simplest level, a shell is a program that allows you to control a computer, in this case, a Mac, using commands you enter with the keyboard. Shells are usually interactive text-based interfaces that accept commands and present the results. [click to read more](https://blog.macsales.com/56921-moving-from-bash-to-zsh-terminal-changes-in-macos-catalina/)
 
-## a few notes before we begin
+## A few notes before we begin
 
 - To use a terminal, you can type in commands, with parameters, and then hit the _ENTER button_ to execute the command.
 - If a command was typed wrongly, the terminal will tell you that it doesn't understand the command.
 - To facilitate with typing, most terminals also helps with completion, by hitting the _TAB button_ after you started typing the command or parameter.
 - You can also use the _UP button_ to cycle through previous commands.
 
-## What can I do with bash?
+# Here is the tutorial
 
 1. Is your terminal using bash? We can use the command below to make sure that it is a `bash shell`
 
