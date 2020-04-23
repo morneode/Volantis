@@ -222,13 +222,30 @@ There are many different shells that can be loaded into a terminal/console. Here
 1. Extra cd commands
 
    ```bash
-     cd </some/directory/path>
-     cd ~ #change to home directory
-     cd / #change to the root directory
-     cd /opt/ #change to /opt
+    cd </some/directory/path>
+    cd ~ #change to home directory
+    cd / #change to the root directory, the top most directory of your hard drive
+    cd /opt/ #change to /opt
+   ```
+
+1. Zip files
+
+   ```bash
+   zip zippety.zip ~/tmp/bash-tutorial * # zip the folder, with all its files
+   zip -r zippety.zip ~/tmp/bash-tutorial * # zip the folder, with all its files and sub directories
+   unzip zippety.zip
+   ```
+
+1. Man pages and extra help when using commands
+
+   ```bash
+   man <command> # to learn more about any command
+   <command> --help
    ```
 
 ## Extra links
 
 - [difference between shell, console and terminal](https://fossbytes.com/difference-between-shell-console-terminal/)
 - [different types of linux shells](https://www.tecmint.com/different-types-of-linux-shells/)
+- [bash cheatsheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+- [another cheatsheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
