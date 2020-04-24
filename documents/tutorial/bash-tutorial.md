@@ -238,6 +238,9 @@ There are many different shells that can be loaded into a terminal/console. Here
    ```bash
     cd </some/directory/path>
     cd ~ #change to home directory
+    cd .. #go one directory back
+    cd ../.. #go two directories back
+    cd ../../.. #go three directories back
     cd / #change to the root directory, the top most directory of your hard drive
     cd /opt/ #change to /opt
    ```
