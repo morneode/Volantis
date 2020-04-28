@@ -203,19 +203,29 @@ There are many different shells that can be loaded into a terminal/console. Here
 
 A **path**, is a place on your hard drive. Your hard drive can store files and directories (folders). Basically, that is all a hard drive can do.
 
-<![Think about it](https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)
+![Think about it](https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)
+
+[According to linux.com:](https://www.linux.com/training-tutorials/absolute-path-vs-relative-path-linuxunix/)
+
+> A path is a unique location to a file or a folder in a file system of an OS. A path to a file is a combination of / and alpha-numeric characters.
 
 You can specify a path, with one of two ways:
 
-1. Specific/full path:
+1. Specific (also called _full_ OR _absolute_) path:
 
    ```bash
    / # the root of your hard drive
    /Users/<USERNAME>/ # your user directory
    /opt/some/folder # a folder called `opt` with a folder called `some`, and another folder in it called `folder`
-   ~ # a folder called your home directory, which is your user account's home
+   ~ # a folder called your home directory, which is your user account's home. It is basically a substitute for `/Users/<Your Username>/`
    ~/tmp/folder # a folder in your home directory called `tmp`, with a folder called `folder` in it
+   /var/ftp/pub
+   /etc/samba.smb.conf
+   /boot/grub/grub.conf
    ```
+
+   > As you can see, all of these paths start with `/`, even the `~` (because it is a substitute for `/Users/<Your Username>/`)
+   > A specific (full/absolute) path tells the interpreter exactly where the file or folder is that you want to access.
 
 2. Relational path:
 
@@ -226,8 +236,8 @@ You can specify a path, with one of two ways:
    .. # the parent directory of this directory
    ```
 
-> As you can see, a full OR specific path tells the interpreter exactly where the file or folder is that you want to access.
-> A relational path, is a lazy or shorthand way we can use, but it is dependant on where your current working directory is pointing at.
+   > [Relative path can be defined as a path related to the present working directory(pwd).](https://www.linux.com/training-tutorials/absolute-path-vs-relative-path-linuxunix/)
+   > A relational path, is a lazy or shorthand method that we can use because we don't want to always type the full path. We can specify paths, in relation to our current working directory (`pwd`).
 
 ## Extra commands
 
