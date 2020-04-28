@@ -199,13 +199,43 @@ There are many different shells that can be loaded into a terminal/console. Here
    rm -rf ~/tmp/bash-tutorial
    ```
 
+## A note on Specifying paths
+
+A **path**, is a place on your hard drive. Your hard drive can store files and directories (folders). Basically, that is all a hard drive can do.
+
+<![Think about it](https://media.giphy.com/media/d3mlE7uhX8KFgEmY/giphy.gif)
+
+You can specify a path, with one of two ways:
+
+1. Specific/full path:
+
+   ```bash
+   / # the root of your hard drive
+   /Users/<USERNAME>/ # your user directory
+   /opt/some/folder # a folder called `opt` with a folder called `some`, and another folder in it called `folder`
+   ~ # a folder called your home directory, which is your user account's home
+   ~/tmp/folder # a folder in your home directory called `tmp`, with a folder called `folder` in it
+   ```
+
+2. Relational path:
+
+   ```bash
+   ./tmp/ # a folder from my current PWD, called `tmp`
+   ./file # a file in my current directory called `file`
+   . # this directory
+   .. # the parent directory of this directory
+   ```
+
+> As you can see, a full OR specific path tells the interpreter exactly where the file or folder is that you want to access.
+> A relational path, is a lazy or shorthand way we can use, but it is dependant on where your current working directory is pointing at.
+
 ## Extra commands
 
 1. You can learn about bash by using your favorite search engine. For example just type `bash ls examples` OR `bash tutorial` into:
 
    1. [Google](https://www.google.com/)
-   1. [DuckDuckGo](https://duckduckgo.com/)
-   1. [Startpage](https://startpage.com/)
+   2. [DuckDuckGo](https://duckduckgo.com/)
+   3. [Startpage](https://startpage.com/)
 
 2. Reset the terminal. This is useful if your terminal are not showing you what you are typing.
 
