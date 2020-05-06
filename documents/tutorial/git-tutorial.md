@@ -1,4 +1,4 @@
-# Git Interactive Tutorial
+# Getting started with Git
 
 ### Initialising: Create a git repo
 
