@@ -22,7 +22,8 @@ To complete these tutorials, just follow the steps in the tutorial.
 
 1. bash: [Getting started with Bash](./tutorial/bash-tutorial.md)
 2. git: [Getting started with Git](./tutorial/git-tutorial.md)
-3. hello world: [Getting started with programming](./tutorial/hello-world.md)
+3. git-notes: [Create your own repo to store your notes, and become more familiar with gith](./tutorial/git-notes-tutorial.md)
+4. hello world: [Getting started with programming](./tutorial/hello-world.md)
 
 ## Questions - You can submit them back to test your understanding
 

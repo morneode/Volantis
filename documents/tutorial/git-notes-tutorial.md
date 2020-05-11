@@ -5,8 +5,9 @@ If you want to get started with GIT, its always a good idea to have your own spa
 ## Prerequisites
 
 - You should have a github account
+- [You should have added your SSH keys to github](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-## Steps
+## Steps to create your own Repo on Github.com
 
 1. Open Github.com in browser
 2. ADD PICTURE HERE - and
@@ -26,86 +27,29 @@ If you want to get started with GIT, its always a good idea to have your own spa
 10. Select "Initialize this repository with a README" _checkbox_
 11. Click the "Create repository" _button_
 12. The web page will reload with the information you have captured
-13. > Select the drop down button "Clone or download"
-14. > Copy the values in the test box and save it to a wordpad or notepad doc as you will need the values for the next excise
 
-# Clone your repo to your hard drive
+Your repo has now been created on Github.com. You currently have no local copy of it yet.
 
-1. Open the Terminal
-1. Create a working directory for eg `mkdir -p ~/github/` and `cd ~/github/` into it
-1. Execute the command `ls -al` "No files displayed in the directory"
-1. Execute the command `git clone git@github.com:xxxxgithub/My-Notes.git` in the current directory
-1. Execute the command `ls -al` "A My-Notes directory is displayed in this directory"
-1. Execute the command `cd My-Notes` "A README.md is displayed in this directory"
-1. Execute to command `git status` your result will be `fatal: not a git repository (or any of the parent directories): .git`
-1. Execute the command `git init` your result will be `Initialized empty Git repository in /Users/mahomsl/github/.git/`
-1. Execute the command `ls -al` "A README.md and a .git file will be displayed in this direcory"
-1. Execute the command `git status` 'Your results'
+## Clone your repo to your hard drive
 
-   On branch master
+You can now clone your repo to your local machine.
 
-No commits yet
+1. Open your Terminal
+1. Create a working directory for all your git projects, for e.g. `~/github/` and `cd` into it
+1. Execute the command `git clone git@github.com:<YOUR USERNAME>/<YOUR REPONAME>.git` in the current directory (which should be your created folder in the previous step)
+   1. Select the GREEN drop down button on Github.com "Clone or download"
+   2. Make sure to use the `Use SSH` URL. (The URL should look like `git@github.com:<YOUR USERNAME>/<YOUR REPONAME>.git`, i.e. it should NOT have a **https** in the URL)
+   3. Copy the values in the text box and paste it after your `git clone` command
+1. Hit ENTER to start downloading your project
+1. When done, `cd` into your project
 
-Untracked files:
-(use "git add <file>..." to include in what will be committed)
-My-Notes/
+You have cloned your remote repo from Github.com, to your local machine. To work on your repo, you will be commiting to your local repo, and push your changes to your remote repo.
 
-nothing added to commit but untracked files present (use "git add" to track)
+> Test your cloned repo by checking the status (`git status`):
 
-1. You are currently on your local master branch "To push a File to your remote master branch"
-1. Execute the command `touch File1` "An empty File will be created"
-1. Execute the command `vi File1` "Edit this file and save the details captured"
-1. Execute to command `git status` your result will be
-   On branch master
-   Your branch is up to date with 'origin/master'.
-
-Untracked files:
-(use "git add <file>..." to include in what will be committed)
-File1
-
-nothing added to commit but untracked files present (use "git add" to track)
-
-1. Execute the command `git add`
-1. Execute the command `git status` your result will be
-   On branch master
-   Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-(use "git restore --staged <file>..." to unstage)
-new file: File1
-
-1. Execute the command `git commit File1`
-1. Execute the command `git status` your result will be
-   [master ade1b65] Adding File1 to My-Notes Repository :-)
-   1 file changed, 6 insertions(+)
-   create mode 100644 File1
-
-1. Execute the command `git status` your result will be
-   On branch master
-   Your branch is ahead of 'origin/master' by 1 commit.
-   (use "git push" to publish your local commits)
+```bash
+On branch master
+Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
-
-1. Execute the command `git push File1` your result will be
-   Enumerating objects: 4, done.
-   Counting objects: 100% (4/4), done.
-   Delta compression using up to 12 threads
-   Compressing objects: 100% (3/3), done.
-   Writing objects: 100% (3/3), 1014 bytes | 1014.00 KiB/s, done.
-   Total 3 (delta 0), reused 0 (delta 0)
-   To github.com:saminagithub/My-Notes.git
-   4e960cf..ade1b65 master -> master
-
-1. Execute the command `git status` your result will be  
-   On branch master
-   Your branch is up to date with 'origin/master'.
-
-nothing to commit, working tree clean
-
-# Files pushed from local Git repository to remote Git repository
-
-1. Go to your profile in github
-1. Select your New Repository XXXXgithub/My-Notes
-1. In the <> Code tab you will see the File1
-1. Your branch is `Branch:master` and `New pull request`
+```
