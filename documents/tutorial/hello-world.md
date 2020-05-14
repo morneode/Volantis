@@ -8,7 +8,11 @@ To try and find a `Hello World` example for the _python programming language_, t
 
 `python hello world`
 
-There will be a ton of these examples, but we've already added a few [here](./hello-world/) for you to try out. Each file contains directions on how to run the app:
+There will be a ton of these examples, but we've already added a few [here](./hello-world/) for you to try out.
+
+You can download these files, by clicking on their link, and then right-clicking the `Raw` _button_. From the menu select `Save Link As...`
+
+Each file contains directions on how to run the app:
 
 - [a python hello world](./hello-world/helloworld.py)
 - [a nodejs hello world](./hello-world/helloworld.js)
@@ -16,3 +20,5 @@ There will be a ton of these examples, but we've already added a few [here](./he
 - [a java hello world](./hello-world/HelloWorld.java)
 - [a bash hello world](./hello-world/helloworld.sh) - a bash scripting example
 - [a HTML hello world](./hello-world/helloworld.html) - HTML is not a programming language, but rather [is the standard markup language for documents designed to be displayed in a web browser.](https://en.wikipedia.org/wiki/HTML)
+
+> Please note that some of these languages might need to be installed on your computer first. But you can do that by searching the web...
