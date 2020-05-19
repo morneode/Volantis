@@ -37,7 +37,10 @@ There are many different shells that can be loaded into a terminal/console. Here
 - To facilitate with typing, most terminals also helps with completion, by hitting the _TAB button_ after you started typing the command or parameter.
 - You can also use the _UP button_ to cycle through previous commands.
 
-# Here is the tutorial
+## Here is the tutorial
+
+For the following tutorial, please arrange your windows like below:
+![Recommended window layout](../pictures/../../../pictures/recommended-window-layout.png)
 
 1. Is your terminal using bash? We can use the command below to make sure that it is a `bash shell`
 

@@ -1,5 +1,8 @@
 # Getting started with Git
 
+For the following tutorial, please arrange your windows like below:
+![Recommended window layout](../pictures/../../../pictures/recommended-window-layout.png)
+
 ### Initialising: Create a git repo
 
 1. Create a working directory. (`mkdir -p ~/tmp/git-tutorial`) and `cd ~/tmp/git-tutorial` into it
