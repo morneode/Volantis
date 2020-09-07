@@ -25,6 +25,7 @@ To complete these tutorials, just follow the steps in the tutorial.
 3. git-notes: [Create your own repo to store your notes, and become more familiar with git](./tutorial/git-notes-tutorial.md)
 4. hello world: [Getting started with programming](./tutorial/hello-world.md)
 5. selenium: [automate any web browser](./tutorial/selenium-tutorial.md)
+6. cypress: [automated and bdd tests](./tutorial/cypress-tutorial.md)
 
 ## Questions - You can submit them back to test your understanding
 
