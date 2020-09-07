@@ -1,13 +1,15 @@
+<!-- omit in toc -->
 # Learning to Program / Becomming a Developer
 
-- [Learning to Program / Becomming a Developer](#learning-to-program--becomming-a-developer)
-  - [First steps - recommended for people who are new to programming](#first-steps---recommended-for-people-who-are-new-to-programming)
-  - [Tutorials - A guided exercise](#tutorials---a-guided-exercise)
-  - [Questions - You can submit them back to test your understanding](#questions---you-can-submit-them-back-to-test-your-understanding)
-  - [Tasks - Getting your hands dirty](#tasks---getting-your-hands-dirty)
-  - [Other Things](#other-things)
+<!-- omit in toc -->
+## Table Of Contents
 
-If you don't have any programming background, it is RECOMMENDED to go through and understand the **First steps** below...
+- [First steps - recommended for people who are new to programming](#first-steps---recommended-for-people-who-are-new-to-programming)
+- [Tutorials - A guided exercise](#tutorials---a-guided-exercise)
+- [Questions - You can submit them back to test your understanding](#questions---you-can-submit-them-back-to-test-your-understanding)
+- [Tasks - Getting your hands dirty](#tasks---getting-your-hands-dirty)
+- [Other Things](#other-things)
+  If you don't have any programming background, it is RECOMMENDED to go through and understand the **First steps** below...
 
 ## First steps - recommended for people who are new to programming
 
@@ -23,9 +25,9 @@ To complete these tutorials, just follow the steps in the tutorial.
 1. bash: [Getting started with Bash](./tutorial/bash-tutorial.md)
 2. git: [Getting started with Git](./tutorial/git-tutorial.md)
 3. git-notes: [Create your own repo to store your notes, and become more familiar with git](./tutorial/git-notes-tutorial.md)
-4. hello world: [Getting started with programming](./tutorial/hello-world.md)
-5. selenium: [automate any web browser](./tutorial/selenium-tutorial.md)
-6. cypress: [automated and bdd tests](./tutorial/cypress-tutorial.md)
+4. Hello World: [Getting started with programming](./tutorial/hello-world.md)
+5. Selenium: [automate any web browser](./tutorial/selenium-tutorial.md)
+6. Cypress: [automated and BDD tests](./tutorial/cypress-tutorial.md)
 
 ## Questions - You can submit them back to test your understanding
 
