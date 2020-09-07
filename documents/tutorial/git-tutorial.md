@@ -1,7 +1,7 @@
 # Getting started with Git
 
 For the following tutorial, please arrange your windows like below:
-![Recommended window layout](../pictures/../../../pictures/recommended-window-layout.png)
+![Recommended window layout](../pictures/recommended-window-layout.png)
 
 ### Initialising: Create a git repo
 

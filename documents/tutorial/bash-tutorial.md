@@ -40,7 +40,7 @@ There are many different shells that can be loaded into a terminal/console. Here
 ## Here is the tutorial
 
 For the following tutorial, please arrange your windows like below:
-![Recommended window layout](../pictures/../../../pictures/recommended-window-layout.png)
+![Recommended window layout](../pictures/recommended-window-layout.png)
 
 1. Is your terminal using bash? We can use the command below to make sure that it is a `bash shell`
 
