@@ -1,8 +1,6 @@
 {
-    "python.pythonPath": "/usr/local/bin/python3",
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "editor.formatOnSave": true,
-    "files.watcherExclude": {
-        "**/target": true
-    }
+  "python.pythonPath": "/usr/local/bin/python3",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true
 }
